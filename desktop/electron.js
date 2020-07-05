@@ -5,13 +5,13 @@ const path = require('path');
 const url = require('url');
 const fs = require('fs');
 const os = require('os');
-const userAgent = 'MoodleMobile';
+const userAgent = 'AT-TechMobile';
 const isMac = os.platform().indexOf('darwin') != -1;
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow,
-    appName = 'Moodle Desktop', // Default value.
+    appName = 'AT-Tech-Desktop', // Default value.
     isReady = false,
     configRead = false;
 
